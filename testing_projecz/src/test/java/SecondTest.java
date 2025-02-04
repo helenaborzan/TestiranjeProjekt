@@ -8,7 +8,7 @@ import pages.GoogleHomePage;
 
 public class SecondTest extends BaseTest {
     @Test
-    public void secondTest() {
+    public void testMerlin() {
         driver.manage().window().maximize();
         GoogleHomePage googleHomePage = new GoogleHomePage(driver);
         googleHomePage.acceptCookies();

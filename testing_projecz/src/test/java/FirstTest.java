@@ -5,7 +5,7 @@ import pages.GoogleHomePage;
 
 public class FirstTest extends BaseTest {
     @Test
-    public void firstTest() {
+    public void testSeleniumSearch() {
         driver.manage().window().maximize();
         GoogleHomePage googleHomePage = new GoogleHomePage(driver);
         googleHomePage.acceptCookies();

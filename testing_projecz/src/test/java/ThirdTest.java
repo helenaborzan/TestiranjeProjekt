@@ -5,6 +5,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.GoogleHomePage;
+import pages.NetflixHomePage;
 
 public class ThirdTest extends BaseTest {
     @Test

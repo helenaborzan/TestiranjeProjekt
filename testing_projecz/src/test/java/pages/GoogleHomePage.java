@@ -15,7 +15,7 @@ public class GoogleHomePage {
 
     public GoogleHomePage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, 10);
+        this.wait = new WebDriverWait(driver, 5);
     }
 
     public void searchFor(String query) {
