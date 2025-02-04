@@ -6,7 +6,7 @@ This project is a Maven-based automated testing framework built using **Java**, 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Technologies Used](#technologies-used)
+- [Technologies and Concepts Used](#technologies-used)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Test Cases and Results](#test-cases)
@@ -22,7 +22,7 @@ This project demonstrates automated web testing using Selenium WebDriver and Tes
 
 ---
 
-## Technologies Used
+## Technologies and Concepts Used
 
 - **Java**: Programming language for writing test scripts.
 - **Selenium WebDriver**: Browser automation tool.
@@ -30,6 +30,9 @@ This project demonstrates automated web testing using Selenium WebDriver and Tes
 - **Maven**: Build automation and dependency management.
 - **ChromeDriver**: WebDriver for the Chrome browser.
 - **WebDriverManager**: Automates the management of WebDriver binaries.
+- **Page Object Model (POM)** – Implemented for better test structure, maintainability, and reusability of web elements.
+- **Object-Oriented Programming (OOP)** – Applied principles such as encapsulation and inheritance to structure the test framework effectively.
+- **Wait commands in Selenium WebDriver** – Used for handling dynamic elements and ensuring proper synchronization in test execution.
 
 ---
 
